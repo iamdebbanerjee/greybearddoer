@@ -1,7 +1,9 @@
 /* CSS Stylesheet for RWD Education website project - Ben Frain book - Packt Pub */
 
+/* Over-riding universal styles - box sizing, responsive img etc. */
 * {
     box-sizing: border-box;
+    border: 2px solid red;
 }
 
 img {
@@ -9,16 +11,23 @@ img {
     height: auto;
 }
 
+/************ Header & Navigation **********/
+
 header.front-page {
     display: flex
 }
 
-section.logo {
+div.logo {
     flex: 1;
 }
 
 nav.top {
     flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 0.5em;
+
 }
 
 nav.top a {
@@ -27,3 +36,7 @@ nav.top a {
     font-weight: ;
     text-decoration: none;
 }
+
+/********** Header & Navigation end    *********/
+
+/**********Landing Page Hero Section **********/
