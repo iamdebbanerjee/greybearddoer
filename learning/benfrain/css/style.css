@@ -41,6 +41,31 @@ nav.top a {
 
 /**********Landing Page Hero Section **********/
 
-section.lp-hero {
-    /*background-image: linear-gradient( to bottom, rgba(0,0,0,1), rgba(0,0,0,0.5));*/
+@media screen and (min-width: 420px) {
+    section.lp-hero {
+        background-image: linear-gradient( to bottom, rgba(0,0,0,1), rgba(0,0,0,0.5));
+        display: flex;
+        flex-direction: column-reverse;
+        color: white;
+        height: 850px;
+    }
 }
+
+@media screen and (min-width: 730px) {
+    section.lp-hero {
+        background-image: linear-gradient( to bottom, rgba(0,0,0,1), rgba(0,0,0,0.5));
+        display: flex;
+        flex-direction: row;
+        color: white;
+        height: 850px;
+    }
+}
+
+section.lp-hero-text {
+    flex: 1;    
+}
+
+section.lp-hero-image {
+    flex: 1;    
+}
+
