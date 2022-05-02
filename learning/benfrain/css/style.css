@@ -13,7 +13,7 @@ img {
 
 /************ Header & Navigation **********/
 
-header.front-page {
+header.lp-header {
     display: flex
 }
 
@@ -40,3 +40,7 @@ nav.top a {
 /********** Header & Navigation end    *********/
 
 /**********Landing Page Hero Section **********/
+
+section.lp-hero {
+    /*background-image: linear-gradient( to bottom, rgba(0,0,0,1), rgba(0,0,0,0.5));*/
+}
