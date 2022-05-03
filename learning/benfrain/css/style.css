@@ -69,3 +69,88 @@ section.lp-hero-image {
     flex: 1;    
 }
 
+/***** Landing Page Features Section *********/
+
+section.lp-features-3col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section.lp-features-col1 {
+    flex: 1;
+}
+
+section.lp-features-col2 {
+    flex: 1;
+}
+
+section.lp-features-col3 {
+    flex: 1;
+}
+
+/******* Landing Page FAQ Section ************/
+
+section.lp-faq-2col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section.lp-faq-col1 {
+    flex: 1;
+}
+
+section.lp-faq-col2 {
+    flex: 1;
+}
+
+/******** Landing Page CTA section ***********/
+
+section.lp-cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section.lp-cta1 {
+    flex: 1;
+}
+
+section.lp-cta2 {
+    flex: 1
+}
+
+/**********Landing Page Testimonials section *************/
+section.lp-testimonials {
+    display: ;
+    flex-direction: ;
+    justify-content: ;
+}
+
+/*******Landing Page What's New section ************/
+
+
+
+
+/*******Landing Page Email Subcribe Form ***********/
+
+
+
+
+/*********Landing Page Contents section ************/
+
+
+
+
+/********* Footer section ***************************/
+
+footer.lp-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer div {
+    flex: 1;
+}
