@@ -12,29 +12,59 @@ img {
 }
 
 /************ Header & Navigation **********/
+@media screen and (min-width: 790px) {
+    header.lp-header {
+        display: flex;
+        flex-direction: row;
+    }
 
-header.lp-header {
-    display: flex
+    div.logo {
+        flex: 1;
+    }
+
+    nav.top {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 0.5em;
+
+    }
+
+    nav.top a {
+        font-family: ;
+        font-size: ;
+        font-weight: ;
+        text-decoration: none;
+    }
 }
 
-div.logo {
-    flex: 1;
-}
+@media screen and (min-width: 420px) {
+    header.lp-header {
+        display: flex;
+        flex-direction: column;
+        align-items: ;
+    }
 
-nav.top {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 0.5em;
+    div.logo {
+        flex: 1;
+    }
 
-}
+    nav.top {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 0.5em;
 
-nav.top a {
-    font-family: ;
-    font-size: ;
-    font-weight: ;
-    text-decoration: none;
+    }
+
+    nav.top a {
+        font-family: ;
+        font-size: ;
+        font-weight: ;
+        text-decoration: none;
+    }
 }
 
 /********** Header & Navigation end    *********/
@@ -51,7 +81,7 @@ nav.top a {
     }
 }
 
-@media screen and (min-width: 730px) {
+@media screen and (min-width: 790px) {
     section.lp-hero {
         background-image: linear-gradient( to bottom, rgba(0,0,0,1), rgba(0,0,0,0.5));
         display: flex;
@@ -71,54 +101,117 @@ section.lp-hero-image {
 
 /***** Landing Page Features Section *********/
 
-section.lp-features-3col {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+@media screen and (min-width: 790px) {
+    section.lp-features-3col {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    section.lp-features-col1 {
+        flex: 1;
+    }
+    
+    section.lp-features-col2 {
+        flex: 1;
+    }
+    
+    section.lp-features-col3 {
+        flex: 1;
+    }
 }
 
-section.lp-features-col1 {
-    flex: 1;
+
+@media screen and (min-width: 420px) {
+    section.lp-features-3col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    section.lp-features-col1 {
+        flex: 1;
+    }
+    
+    section.lp-features-col2 {
+        flex: 1;
+    }
+    
+    section.lp-features-col3 {
+        flex: 1;
+    }
 }
 
-section.lp-features-col2 {
-    flex: 1;
-}
-
-section.lp-features-col3 {
-    flex: 1;
-}
 
 /******* Landing Page FAQ Section ************/
 
-section.lp-faq-2col {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+@media screen and (min-width:790px) {
+    section.lp-faq-2col {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    section.lp-faq-col1 {
+        flex: 1;
+    }
+
+    section.lp-faq-col2 {
+        flex: 1;
+    }
 }
 
-section.lp-faq-col1 {
-    flex: 1;
-}
+@media screen and (min-width:420px) {
+    section.lp-faq-2col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 
-section.lp-faq-col2 {
-    flex: 1;
+    section.lp-faq-col1 {
+        flex: 1;
+    }
+
+    section.lp-faq-col2 {
+        flex: 1;
+    }
 }
 
 /******** Landing Page CTA section ***********/
 
-section.lp-cta {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+@media screen and (min-width: 790px) {
+    section.lp-cta {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    section.lp-cta1 {
+        flex: 1;
+    }
+
+    section.lp-cta2 {
+        flex: 1
+    }
 }
 
-section.lp-cta1 {
-    flex: 1;
-}
+@media screen and (min-width: 420px){
+    section.lp-cta {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 
-section.lp-cta2 {
-    flex: 1
+    section.lp-cta1 {
+        flex: 1;
+    }
+
+    section.lp-cta2 {
+        flex: 1
+    }
 }
 
 /**********Landing Page Testimonials section *************/
@@ -144,13 +237,27 @@ section.lp-testimonials {
 
 
 /********* Footer section ***************************/
+@media screen and (min-width: 790px) {
+    footer.lp-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
-footer.lp-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    footer div {
+        flex: 1;
+    }
 }
 
-footer div {
-    flex: 1;
+@media screen and (min-width: 420px) {
+    footer.lp-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    footer div {
+        flex: 1;
+    }
 }
