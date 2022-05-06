@@ -3,7 +3,7 @@
 /* Over-riding universal styles - box sizing, responsive img etc. */
 * {
     box-sizing: border-box;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 img {
