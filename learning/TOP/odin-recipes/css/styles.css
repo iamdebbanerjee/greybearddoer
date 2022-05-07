@@ -40,3 +40,25 @@ h3 {
 p, li, input, button {
     font-size: 1.1em;
 }
+
+/* Margin & Padding */
+
+main {
+    margin: 10vh 20vw;
+    padding: 2.5vh 5vw;
+    border: 1px solid #4a4a4a;
+    border-radius: 5%;
+    box-shadow: 5px 10px #4a4a4a;
+
+    
+}
+
+/* Text Styling */
+
+main h1 {
+    text-align: center;
+}
+
+main.index-page ul li {
+    
+}
