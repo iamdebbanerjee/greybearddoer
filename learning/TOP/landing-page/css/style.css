@@ -1,7 +1,7 @@
 /* Basic styles */
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 img {
@@ -44,7 +44,7 @@ header {
     align-items: center;
     background-color: #1F2937;
     margin: 0;
-    padding: 1rem;
+    padding: 1em 3em;
 }
 
 header div.logo p {
@@ -60,6 +60,10 @@ header nav {
     gap: 1rem;
 }
 
+header nav a {
+    text-decoration: none;
+}
+
 /*****Hero Section*****/
 
 section.hero {
@@ -69,5 +73,28 @@ section.hero {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-bottom: 3em;
+}
+
+div.hero-text h1 {
+    margin: 10px 15px;
+}
+
+.hero-text p {
+    margin: 10px 15px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.hero-text button {
+    margin: 10px 15px;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: #F9FAF8;
+    border-radius: 5px;
 }
 
