@@ -153,3 +153,29 @@ div.hero-text h1 {
     text-align: right;
     font-weight: bold;
 }
+
+/******CTA Section*********/
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    padding: 75px 20vw;
+}
+
+.cta div {
+    flex: 1;
+    height: 200px;
+    border-radius: 6px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .cta div button {
+    flex: 1;
+} */
