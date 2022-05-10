@@ -207,3 +207,14 @@ div.hero-text h1 {
     border-radius: 5px;
     align-self: center;
 }
+
+/*****Footer Section******/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    color:#F9FAF8;
+}
