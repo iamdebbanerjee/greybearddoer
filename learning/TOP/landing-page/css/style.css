@@ -28,6 +28,18 @@ h1 {
     color: #F9FAF8;
 }
 
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
 header div.logo p {
     font-size: 24px;
     color: #F9FAF8;
@@ -48,7 +60,7 @@ header {
     align-items: center;
     background-color: #1F2937;
     margin: 0;
-    padding: 1em 3em;
+    padding: 1em 10vw;
 }
 
 header div.logo p {
