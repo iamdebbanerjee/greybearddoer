@@ -132,7 +132,7 @@ div.hero-text h1 {
 
 .testimonial {
     background-color: #e5e7eb;
-    height: 400px;
+    height: ;
     padding-left: 20vw;
     padding-right: 20vw;
     display: flex;
@@ -165,27 +165,39 @@ div.hero-text h1 {
     padding: 75px 20vw;
 }
 
-.cta div {
+.cta .cta-banner {
     flex: 1;
     height: 200px;
     border-radius: 6px;
     background-color: #3882f6;
-    color: #F9FAF8;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.cta div div {
-    flex: 1;
+.cta-banner div {
+    flex: 0.5;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: ;
+    /* border: 1px solid white; */
 }
 
-.cta div button {
+.cta-banner div h3 {
+    color: #F9FAF8;
+    font-weight: bold;
+    
+} 
+
+.cta-banner div p {
+    color: #F9FAF8;
+    font-weight: normal;
+    
+} 
+
+.cta-banner button {
     width: 80px;
     height: 30px;
     color: #F9FAF8;
@@ -193,4 +205,5 @@ div.hero-text h1 {
     background-color: #3882f6;
     border: 2px solid #e5e7eb;
     border-radius: 5px;
+    align-self: center;
 }
