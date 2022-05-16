@@ -1,0 +1,250 @@
+/* Basic styles */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    /* border: 1px solid red; */
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+/***Typography***/
+
+h1, h2, p, blockquote, button, a {
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+header div.logo p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header nav a {
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+
+
+/****Header Section*****/
+
+header {
+    background-color: #1F2937;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 80px;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: start;
+    align-items: center;
+    /* margin: 0;
+    padding: 1em 3em; */
+}
+
+header div.logo {
+    grid-row: 1;
+    grid-column: 1/4;
+}
+
+header div.logo p {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+header nav {
+    grid-row: 1;
+    grid-column: 4/12;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: 80px;
+    justify-content: end;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+.menu-item-1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.menu-item-2 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.menu-item-3 {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+/*****Hero Section*****/
+
+section.hero {
+    background-color: #1F2937;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-bottom: 2em;
+}
+
+div.hero-text h1 {
+    margin: 10px 15px;
+}
+
+.hero-text p {
+    margin: 10px 15px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.hero-text button {
+    margin: 10px 15px;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
+
+/****Features Section*****/
+
+.features {
+    text-align: center;
+    height: 360px;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.features .col4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.col4 div {
+    flex: 1;
+    text-align: center;
+}
+
+.col4 div img {
+    border: 2px solid #3882f6;
+    border-radius: 6px;
+}
+
+
+/****Testimonial Section*****/
+
+.testimonial {
+    background-color: #e5e7eb;
+    height: ;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.testimonial blockquote {
+    flex: 1;
+    font-size:  36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.testimonial p {
+    flex: 1;
+    text-align: right;
+    font-weight: bold;
+}
+
+/******CTA Section*********/
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    padding: 75px 20vw;
+}
+
+.cta .cta-banner {
+    flex: 1;
+    height: 200px;
+    border-radius: 6px;
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cta-banner div {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: ;
+    /* border: 1px solid white; */
+}
+
+.cta-banner div h3 {
+    color: #F9FAF8;
+    font-weight: bold;
+    
+} 
+
+.cta-banner div p {
+    color: #F9FAF8;
+    font-weight: normal;
+    
+} 
+
+.cta-banner button {
+    width: 80px;
+    height: 30px;
+    color: #F9FAF8;
+    font-weight: bold;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+    align-self: center;
+}
+
+/*****Footer Section******/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    color:#F9FAF8;
+}
