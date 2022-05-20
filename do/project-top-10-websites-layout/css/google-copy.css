@@ -5,13 +5,13 @@ html {
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 1vh 1vw;
     display: grid;
     grid-template-rows: 1fr 3.5fr 0.5fr 0.5fr;
 }
 
 header {
-    min-height: 10vh;;
+    min-height: 3vh;
     grid-row: 1/2;
     display: flex;
     flex-direction: row;
@@ -21,16 +21,18 @@ header {
 }
 
 main {
-    min-height: 60vh;
+    min-height: 65vh;
     grid-row: 2/3;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 main .search-controls {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;   
 }
 
@@ -46,16 +48,17 @@ main .search-controls {
 }
 
 div.region {
-    min-height: 10vh;
+    min-height: 3vh;
     grid-row: 3/4;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
+    align-items: center;
     padding: 0 1vw;
 }
 
 footer {
-    min-height: 10vh;
+    min-height: 3vh;
     grid-row: 4/5;
 }
 
@@ -63,7 +66,7 @@ footer .footer-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: ;
     gap: 10px;
 }
 
@@ -71,6 +74,7 @@ footer .footer-menu {
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     gap: 20px;
 }
 
