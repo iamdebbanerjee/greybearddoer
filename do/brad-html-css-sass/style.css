@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,7 +9,9 @@
 .container {
     padding: 20px 40px;
     height: 100vh;
-    background-color: darkslateblue;
+    background-color: #344a72;
+    
+
 }
 
 .form-wrap {
@@ -15,22 +19,61 @@
     margin: 20px auto;
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: azure;
+    background-color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 10px;
 }
 
 .form-intro {
     text-align: center;
     margin-bottom: 20px;
+    font-family: Raleway;
 }
 
-form label {
+.form-controls label {
     display: block;
     margin-bottom: 3px;
+    font-family: Raleway;
 }
 
-form input, button {
+.form-controls input, button {
     width: 100%;
     margin-bottom: 10px;
     font-size: 16px;
+    font-family: Raleway;
 }
 
+.form-controls button {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #49c1a2;
+    color: #ffffff;
+    font-weight: 600;
+    border:#49c1a2;
+    border-radius: 5px;
+}
+
+.form-controls button:hover {
+    background-color: #37a08e;
+    cursor: pointer;
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-family: Raleway;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff
+}
+
+footer a {
+    text-decoration: none;
+    color: #49c1a2;
+}
