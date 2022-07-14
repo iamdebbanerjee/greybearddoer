@@ -6,15 +6,21 @@
 
 .container {
     padding: 20px 40px;
+    height: 100vh;
     background-color: darkslateblue;
 }
 
-form {
-    max-width: 450px;
+.form-wrap {
+    max-width: 350px;
     margin: 20px auto;
     padding: 10px 20px;
     border-radius: 5px;
     background-color: azure;
+}
+
+.form-intro {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 form label {
@@ -22,8 +28,9 @@ form label {
     margin-bottom: 3px;
 }
 
-form input, textarea {
+form input, button {
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 16px;
 }
+

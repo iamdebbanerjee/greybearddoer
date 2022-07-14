@@ -8,20 +8,37 @@
     </head>
     <body>
         <div class="container">
-            <form action="">
-                <div>
-                    <label for="firstname">First Name</label>
-                    <input type="text" id="firstname" name="firstname" placeholder="Enter First Name">
+            <div class="form-wrap">
+                <div class="form-intro">
+                    <h1>Sign Up</h1>
+                    <p>It's free and only takes a minute</p>
                 </div>
-                <div>
-                    <label for="lastname">Last Name</label>
-                    <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name">
+                <div class="form-controls">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="firstname">First Name</label>
+                            <input type="text" id="firstname" name="firstname">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" id="lastname" name="lastname">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div class="form-group">
+                            <label for="password2">Confirm Password</label>
+                            <input type="password2" id="password2" name="password2">
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
                 </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Enter Email">
-                </div>
-            </form>
+            </div>
         </div>
     </body>
 </html>
