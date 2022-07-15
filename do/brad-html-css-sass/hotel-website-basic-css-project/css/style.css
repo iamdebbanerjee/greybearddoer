@@ -1,0 +1,19 @@
+/*------CSS Reset------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*------Core CSS ------*/
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*------Specific CSS-----------*/
+
+
