@@ -42,3 +42,8 @@ html, body {
     display: block;
     padding: 28px;
 }
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #000;
+}
