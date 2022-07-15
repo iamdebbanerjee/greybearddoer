@@ -41,6 +41,7 @@ html, body {
     float: left;
     display: block;
     padding: 28px;
+    text-align: center;
 }
 
 #navbar ul li a {
