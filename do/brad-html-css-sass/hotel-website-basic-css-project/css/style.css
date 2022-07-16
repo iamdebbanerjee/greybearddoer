@@ -114,3 +114,23 @@ a {
 #showcase #showcase-content h1 {
     font-size: 60px;
 }
+
+/* *******Home Info Section******** */
+
+#home-info {
+    height: 400px;
+}
+
+#home-info-img {
+    background: url('../assets/img/photo-1.jpg');
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#home-info-text {
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding-top: 130px;
+}
