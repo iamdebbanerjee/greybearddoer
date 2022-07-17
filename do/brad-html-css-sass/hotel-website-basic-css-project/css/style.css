@@ -91,6 +91,10 @@ a {
     background-color: #f7c08a;
 }
 
+.clr {
+    clear: both;
+}
+
 /******Navbar Section*******/
 
 #navbar {
@@ -180,4 +184,13 @@ a {
 
 .box i, h3 {
     margin-top: 20px;
+}
+
+/* ***Footer***** */
+
+.main-footer {
+    padding: 10px;
+    background-color: #444;
+    color: #f4f4f4;
+    text-align: center;
 }
