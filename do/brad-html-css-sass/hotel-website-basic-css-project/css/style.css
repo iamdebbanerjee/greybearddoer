@@ -186,6 +186,34 @@ a {
     margin-top: 20px;
 }
 
+/* ***About Page***** */
+
+#about-info {
+    margin: auto;
+    padding: 40px 20px;
+    height: 400px;
+}
+
+#about-info .about-info-left {
+    width: 50%;
+    min-height: 100%;
+    float: left;
+    padding: 10px 20 px;
+}
+
+#about-info .about-info-right {
+    width: 50%;
+    float: right;
+    padding: 10px 20 px;
+}
+
+#about-info .about-info-right img {
+    display: block;
+    width: 500px;
+    padding: 50px;
+    border-radius: 50%;
+}
+
 /* ***Footer***** */
 
 .main-footer {
