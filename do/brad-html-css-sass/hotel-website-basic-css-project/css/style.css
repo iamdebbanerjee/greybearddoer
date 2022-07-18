@@ -210,6 +210,8 @@ a {
 
 /* ***About Page***** */
 
+/* ****About Info Section****** */
+
 #about-info {
 
 }
@@ -232,6 +234,29 @@ a {
     margin: auto;
     border-radius: 50%;
 }
+
+/* ****Testimoials Section***** */
+#testimonials {
+    height: 600px;
+    background: url('../assets/img/test-bg.jpg') no-repeat center center/cover;
+}
+
+.testimonial {
+    background-color: #f7c08a;
+    opacity: 85%;
+    border-radius: 5px;
+    padding:10px;
+    margin: 80px auto;
+}
+
+.testimonial img {
+    display: block;
+    width: 100px;
+    float:left;
+    padding-right: 15px;
+    border-radius: 50%;
+}
+
 
 /* ***Footer***** */
 
