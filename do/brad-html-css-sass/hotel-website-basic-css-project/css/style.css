@@ -273,12 +273,22 @@ a {
     display: block;
 }
 
-#contact-form .form-group input, textarea {
+#contact-form .form-group input, 
+#contact-form .form-group textarea {
     width: 100%;
     border: 1px solid #ddd;
     padding: 10px 5px;
 }
 
+#contact-form .form-group input:focus, 
+#contact-form .form-group textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
+#contact-form .form-group textarea {
+    height: 200px;
+}
 
 
 
