@@ -63,6 +63,22 @@ a {
     color: #f7c08a;
 }
 
+.heading-large {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+.heading-medium  {
+    font-size: 40px;
+    line-height: 1.2em;
+}
+
+
+.heading-Small {
+    font-size: 24px;
+    line-height: 1.2em;
+}
+
 .lead {
     font-size: 18px;;
 }
@@ -189,16 +205,14 @@ a {
 /* ***About Page***** */
 
 #about-info {
-    margin: auto;
-    padding: 40px 20px;
-    height: 400px;
+   
 }
 
 #about-info .about-info-left {
     width: 50%;
     min-height: 100%;
     float: left;
-    padding: 10px 20 px;
+    padding: 40px 20px;
 }
 
 #about-info .about-info-right {
