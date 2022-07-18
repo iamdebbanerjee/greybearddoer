@@ -258,6 +258,30 @@ a {
 }
 
 
+/* *****Contact Page***** */
+
+#contact-form {
+    width: 60%;
+    margin: 20px auto;
+}
+
+#contact-form .form-group {
+    margin-bottom: 10px;    
+}
+
+#contact-form .form-group label {
+    display: block;
+}
+
+#contact-form .form-group input, textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px 5px;
+}
+
+
+
+
 /* ***Footer***** */
 
 .main-footer {
