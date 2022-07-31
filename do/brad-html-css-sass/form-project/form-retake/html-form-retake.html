@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Project - Retake Revision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <h1 class="form-heading">Sign Up</h1>
+        <p class="form-text">It's free and only takes a minute</p>
+        <div class="form-group">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname">
+        </div>
+        <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname">
+        </div>
+        <div class="form-goup">
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="15" max="65">
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="fav-recipe">Favourite Recipe</label>
+            <select name="fav-recipe" id="fav-recipe">
+                <option value="dum-biriyani">Dum Biriyani</option>
+                <option value="kacchi-biriyani">Kacchi Biriyani</option>
+                <option value="mutton-rezala">Mutton Rezala</option>
+                <option value="mutton-chaap">Mutton Chaap</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="fav-cuisine">Favourite Cuisine</label>
+            <input type="checkbox" name="mughlai" id="mughlai" value="mughlai"> Mughlai
+            <input type="checkbox" name="chinese" id="chinese" value="chinese"> Chinese
+            <input type="checkbox" name="continental" id="continental" value="continental"> Continental
+            <input type="checkbox" name="bengali" id="bengali" value="bengali"> Bengali Traditional
+        </div>
+        <div class="form-group">
+            <label for="fav-restaurant">Favourite Restaurant</label>
+            <input type="radio" name="bukhara" id="bukhara" value="bukhara"> Bukhara
+            <input type="radio" name="china-town" id="china-town" value="china-town"> China Town
+            <input type="radio" name="la-pino" id="la-pino" value="la-pino"> La Pino
+            <input type="radio" name="aheli" id="aheli" value="aheli"> Aheli
+        </div>
+        <button type="submit" class="form-submit">Submit</button>
+    </form>    
+</body>
+</html>
