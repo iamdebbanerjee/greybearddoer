@@ -29,6 +29,13 @@ form h1,p {
     text-align: center;
 }
 
+form .form-section-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .form-group label, input,select  {
     display: block;
     padding: 10px 0;
@@ -41,6 +48,20 @@ form h1,p {
     font-size: 1.2rem;
     font-weight: 600;
 }
+
+/* .form-group label.checkbox-radio {
+    font-size: 1.1rem;
+    font-weight: normal;
+    display: inline-block;
+} */
+
+.form-group input[type="checkbox"], .form-group input[type="radio"] {
+    display: inline;
+    width:max-content;
+}
+
+
+
 
 .form-submit {
     display: block;
