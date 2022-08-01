@@ -59,7 +59,7 @@ form .form-section-heading {
 
 .form-group input[type="checkbox"], .form-group input[type="radio"] {
     display: inline;
-    width:max-content;
+    width: max-content;
 }
 
 
