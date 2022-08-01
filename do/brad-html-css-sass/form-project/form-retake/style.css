@@ -27,6 +27,8 @@ form {
 
 form h1,p {
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 form .form-section-heading {
