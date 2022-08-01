@@ -9,5 +9,68 @@
 /* Core Styles */
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+h1, h2, h3, p {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: #333;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #333;
+}
+
+p, a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Utility Classes */
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+
+/* Home Page */
+
+nav {
+    background-color: #333;
+    height: 60px;
+}
+
+#logo {
+    float: left;
+    color: #ddd;
+}
+
+#top-menu {
+    float: right;
+    list-style: none;
+}
+
+#top-menu li {
+    float: left;
+    padding: 18px 30px;
+}
+
+#top-menu li a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
