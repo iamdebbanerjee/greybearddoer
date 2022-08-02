@@ -81,10 +81,19 @@ nav {
     border-bottom: 1px solid gold;
 }
 
+/* Showcase Section */
+
+#showcase {
+    background: url("../assets/showcase.jpg") no-repeat center center/cover;
+    height: 95vh;
+}
+
 
 /* Media Queries */
 
 @media screen and (max-width: 768px) {
+
+    /* Navigation Section */
 
     nav {
         height: 260px;
@@ -118,5 +127,12 @@ nav {
     #top-menu li a:hover {
         background-color: #393939;
         border-bottom: 1px solid gold;
+    }
+
+    /* Showcase Section */
+
+    #showcase {
+        background: url("../assets/showcase.jpg") no-repeat center center/cover;
+        height: 80vh;
     }
 }
