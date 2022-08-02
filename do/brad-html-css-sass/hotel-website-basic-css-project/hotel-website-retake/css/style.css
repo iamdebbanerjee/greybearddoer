@@ -48,6 +48,8 @@ p, a {
 
 /* Home Page */
 
+/* Navigation */
+
 nav {
     background-color: #333;
     height: 60px;
@@ -65,12 +67,56 @@ nav {
 
 #top-menu li {
     float: left;
-    padding: 18px 30px;
+    padding-top: 18px;
+    padding-left: 15px;
 }
 
 #top-menu li a {
     color: #ddd;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px 10px;
+}
+#top-menu li a:hover {
+    background-color: #393939;
+    border-bottom: 1px solid gold;
 }
 
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        height: 260px;
+    }
+
+    #logo {
+        float: none;
+        text-align: center;
+        color: #ddd;
+    }
+    
+    #top-menu {
+        float: none;
+        list-style: none;
+    }
+    
+    #top-menu li {
+        float: none;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+    #top-menu li a {
+        color: #ddd;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    #top-menu li a:hover {
+        background-color: #393939;
+        border-bottom: 1px solid gold;
+    }
+}
