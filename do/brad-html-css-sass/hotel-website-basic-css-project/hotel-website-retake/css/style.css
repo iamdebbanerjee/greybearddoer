@@ -13,7 +13,7 @@ body {
 }
 
 h1, h2, h3, p {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 h1 {
@@ -46,8 +46,62 @@ p, a {
 }
 
 .text-primary {
-    color: #ff4500 ;
+    color: #f7c08a ;
 }
+
+.text-light {
+    color: #ddd;
+}
+
+.text-dark {
+    color: #333;
+}
+
+.bg-primary {
+    background-color: #f7c08a;
+}
+
+.bg-dark {
+    background-color: #333;
+}
+
+.bg-light {
+    background-color: #ddd;
+}
+
+
+.btn-primary {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #f7c08a;
+    color: #333;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #f7f7f7;
+    color: #333;
+    border-radius: 5px;
+}
+
+.btn-dark {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #333;
+    color: gold;
+    border-radius: 5px;
+}
+
+.btn-dark:hover {
+    background-color: gold;
+    color: #333;
+    border-radius: 5px;
+}
+
+
+
 
 
 /* Home Page */
@@ -107,19 +161,29 @@ nav {
     padding-bottom: 10px;
 }
 
-.showcase-btn {
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px 25px;
-    background-color: #333;
-    color: gold;
-    border-radius: 5px;
+/* Home Info Section */
+
+#home-info {
+    height: 350px;
 }
 
-.showcase-btn:hover {
-    background-color: gold;
-    color: #333;
-    border-radius: 5px;
+#home-info-img {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: url('../assets/photo-1.jpg') no-repeat center center;
+}
+
+#home-info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding-top: 120px;
+}
+
+#home-info-content p {
+    color: #ddd;
 }
 
 
@@ -172,4 +236,29 @@ nav {
         background: url("../assets/showcase.jpg") no-repeat center center/cover;
         height: 80vh;
     }
+}
+
+/* Home Info Section */
+
+#home-info {
+    height: 350px;
+}
+
+#home-info-img {
+    float: none;
+    width: 100;
+    height: 100%;   
+    background: url('../assets/photo-1.jpg') no-repeat center center;
+}
+
+#home-info-content {
+    float: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 120px;
+}
+
+#home-info-content p {
+    color: #ddd;
 }
