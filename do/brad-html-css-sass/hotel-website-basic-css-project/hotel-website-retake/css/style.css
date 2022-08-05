@@ -101,7 +101,9 @@ p, a {
 }
 
 
-
+.clr {
+    clear: both;
+}
 
 
 /* Home Page */
@@ -186,6 +188,24 @@ nav {
     color: #ddd;
 }
 
+/* Features Section */
+
+#features {
+    height: 300px;
+}
+
+.feature-box {
+    width: 33.33%;
+    height: 100%;
+    float:left;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.feature-box p {
+    margin: 20px 30px;
+
+}
 
 /* Media Queries */
 
@@ -237,11 +257,15 @@ nav {
         height: 80vh;
     }
 
+    .showcase-heading {
+        padding-top: 20vh;
+    }
+
 
     /* Home Info Section */
 
     #home-info {
-        height: 350px;
+        height: ;
     }
 
     #home-info-img {
@@ -261,6 +285,25 @@ nav {
 
     #home-info-content p {
         color: #ddd;
+    }
+
+    /* Features Section */
+
+    #features {
+        height: ;
+    }
+    
+    .feature-box {
+        width: 100%;
+        height: ;
+        float: ;
+        text-align: center;
+        padding: 100px 20px;
+    }
+    
+    .feature-box p {
+        margin: 20px 30px;
+    
     }
 
 }
