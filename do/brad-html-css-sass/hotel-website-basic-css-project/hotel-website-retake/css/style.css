@@ -207,6 +207,16 @@ nav {
 
 }
 
+footer {
+    height: 10vh;
+    background-color: #333;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 4vh;;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 768px) {
