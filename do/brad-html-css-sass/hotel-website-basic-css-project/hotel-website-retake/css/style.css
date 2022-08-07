@@ -207,6 +207,43 @@ nav {
 
 }
 
+/* About Page */
+
+/* About-Info-Section */
+
+#about-info {
+    padding: 2rem 1rem;
+    margin: 2rem auto;
+}
+
+#about-info-text {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#about-info-text h1 {
+    margin-bottom: 2rem;
+}
+
+#about-info-img {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 0 2rem;
+}
+
+#about-info-img img {
+    display: block;
+    width: 450px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+
+/* Footer Section */
+
 footer {
     height: 10vh;
     background-color: #333;
@@ -316,5 +353,40 @@ footer p {
         margin: 20px 30px;
     
     }
+
+    /* About Page */
+
+    /* About-Info-Section */
+
+    #about-info {
+        padding: 1rem 1rem;
+        margin: 0 auto;
+        height: 100vh;
+    }
+
+    #about-info-text {
+        float: none;
+        width: 100%;
+        height: 50vh;
+        text-align: center;
+    }
+
+    #about-info-text h1 {
+        margin-bottom: 2rem;
+    }
+
+    #about-info-img {
+        float: none;
+        max-width: 80vw;
+        height: 50vh;
+        padding: 0;
+    }
+
+    #about-info-img img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 0%;
+    }
+
 
 }
