@@ -272,6 +272,34 @@ nav {
     margin-right: 1rem;
 }
 
+/* Contact Page */
+
+/* Contact form section */
+
+#contact-form-section {
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+.form-group {
+    padding-bottom: 0.5rem;
+}
+
+.form-group label, input, textarea {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+}
+
+
+
+
 
 /* Footer Section */
 
