@@ -26,7 +26,7 @@ a {
 
 header {
     height: 100vh;  /*If I don't give the height, then the image will collapse and it'll not show */
-    background: url('images/home/showcase.jpg') no-repeat center center/cover;
+    background: url('../images/home/showcase.jpg') no-repeat center center/cover;
 }
 
 #navigation {
