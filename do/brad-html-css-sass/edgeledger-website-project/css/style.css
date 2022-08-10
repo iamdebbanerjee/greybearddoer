@@ -1,7 +1,71 @@
+/* Import Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Raleway&display=swap');
+
 /* CSS Reset */
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+/* Core Styles */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header Section */
+
+#top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#top-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#top-menu ul li a {
+    padding: 15px 20px;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    
+    /* Header Section */
+        #top-menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        #top-menu ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        #top-menu ul li a {
+            padding: 10px 12px;
+        }
 }

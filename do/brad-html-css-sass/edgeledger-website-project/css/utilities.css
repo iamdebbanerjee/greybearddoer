@@ -1,1 +1,19 @@
 /* CSS Utility Classes */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+
+.text-primary {
+    color: #28a745;
+}
+
+.text-secondary {
+    color: #0284d0;
+}
