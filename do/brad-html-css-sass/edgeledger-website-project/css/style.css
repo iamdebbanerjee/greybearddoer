@@ -24,12 +24,26 @@ a {
 
 /* Header Section */
 
+header {
+    height: 100vh;  /*If I don't give the height, then the image will collapse and it'll not show */
+    background: url('images/home/showcase.jpg') no-repeat center center/cover;
+}
+
+#navigation {
+    background: rgba(51, 51, 51, 0.8);
+}
+
 #top-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding: 10px;
+}
+
+#top-menu h2 {
+    color: #fafafa;
 }
 
 #top-menu ul {
@@ -41,13 +55,14 @@ a {
 
 #top-menu ul li a {
     padding: 15px 20px;
+    color: #fafafa;
 }
 
 
 
 /* Media Queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     
     /* Header Section */
         #top-menu {
@@ -56,6 +71,11 @@ a {
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
+        }
+
+        #top-menu h2, nav {
+            flex: 1 1 200px;
+            text-align: center;
         }
 
         #top-menu ul {
