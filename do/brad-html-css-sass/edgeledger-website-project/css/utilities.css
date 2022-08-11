@@ -17,3 +17,24 @@
 .text-secondary {
     color: #0284d0;
 }
+
+/*Media Queries*/
+
+@media screen and (max-width: 920px) {
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+}
+
