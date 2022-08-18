@@ -127,6 +127,10 @@ header {
 
 /* Icons */
 
+/* #icons {
+    height: 50vh;
+} */
+
 .icons {
     padding: 2rem 1rem;
     margin: 1rem;
@@ -147,22 +151,71 @@ header {
 }
 
 
+
 .flex-items-3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-wrap:wrap
+    flex-wrap: wrap;
 }
 
 .flex-items-3 div {
     flex: 0.33 1 300px;
+    height: 100%;
+}
+
+/* Solutions */
+
+#solutions {
+    height: 60vh;
+}
+
+.flex-items-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.flex-items-2 div {
+    flex: 0.50 1 300px;
+    height: 100%;
+}
+
+#solutions .section-image {
+    background: url('../images/home/people.jpg') no-repeat center center/cover;
+    margin: 0;
+    height: 60vh;
+}
+
+#solutions .section-content {
+    background: #0284d0;
+    margin: 0;
+    height: 60vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+#solutions .section-image p {
+    margin-bottom: 15px;
+}
+
+#solutions .section-image a {
+    display: inline-block;
+    flex-grow: 0.20;
 }
 
 
 
 
+/* About Section Ends */
 
 
 
