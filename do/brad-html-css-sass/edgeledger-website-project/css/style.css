@@ -201,16 +201,55 @@ header {
     padding: 150px 30px;
 }
 
+#solutions .section-content h3,
 #solutions .section-content p {
     margin-bottom: 15px;
     color: #fff;
 }
 
-
-
-
 /* About Section Ends */
 
+/* Cases Section */
+
+#cases {
+    height: 100vh;
+}
+
+.section-header {
+    height: 10vh;
+    text-align: center;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+}
+
+.flex-grid {
+    height: 80vh;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.flex-grid div[class*='row'] {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+    /* border: 1px solid green; */
+}
+
+.flex-grid div[class*='row'] div[class*='col'] {
+    /* border: 1px solid blue; */
+    flex: 1;
+}
+
+.flex-grid div[class*='row'] div[class*='col'] img {
+    width: 100%;
+    height: 100%;
+}
 
 
 /* Media Queries */
