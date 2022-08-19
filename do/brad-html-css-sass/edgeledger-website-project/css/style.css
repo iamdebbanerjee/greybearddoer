@@ -213,11 +213,9 @@ a {
     flex-direction: row;
     justify-content:center;
     width: 100%;
-    /* border: 1px solid green; */
 }
 
 .flex-grid div[class*='row'] div[class*='col'] {
-    /* border: 1px solid blue; */
     flex: 1;
 }
 
