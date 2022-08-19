@@ -238,6 +238,7 @@ a {
 
 #blog .section-image {
     background: url('../images/home/blog.jpg') no-repeat center center/cover;
+    height: 60vh;
 }
 
 #blog .section-content {
@@ -312,9 +313,6 @@ a {
         margin: 0;
         height: 60vh;
         text-align: left;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center; */
         padding: 150px 30px;
     }
     
@@ -327,7 +325,7 @@ a {
     /* Cases Section */
 
     #cases {
-        height: 100vh;
+        height: 340vh;
     }
 
     .section-header {
@@ -342,7 +340,7 @@ a {
     }
 
     .flex-grid {
-        height: 80vh;
+        height: 320vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -359,7 +357,8 @@ a {
      }
 
     .flex-grid div[class*='row'] div[class*='col'] {
-        flex: 4 1 300px;
+        flex: 1 1 300px;
+        height: 40vh;
     }
 
     .flex-grid div[class*='row'] div[class*='col'] img {
@@ -367,4 +366,46 @@ a {
         /* height: 33.33vh; */
     }
    
+
+    /* Blog Section */
+
+    #blog {
+        height: ;
+    }
+    
+    .flex-items-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .flex-items-2 div {
+        flex: 1 1 300px;
+        height: 100%;
+    }
+    
+    #blog .section-image {
+        background: url('../images/home/blog.jpg') no-repeat center center/cover;
+        height: ;
+    }
+    
+    #blog .section-content {
+        background: #28a745;
+        margin: 0;
+        height: ;
+        text-align: center;
+        padding: 150px 30px;
+    }
+    
+    #blog .section-content h3,
+    #blog .section-content p {
+        margin-bottom: 15px;
+        color: #fff;
+    }
+
+
+
+
 }
