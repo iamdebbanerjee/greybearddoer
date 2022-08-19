@@ -152,19 +152,7 @@ a {
 
 
 
-.flex-items-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-}
 
-.flex-items-3 div {
-    flex: 1 1 300px;
-    height: 100%;
-}
 
 /* Solutions */
 
@@ -253,6 +241,35 @@ a {
 .flex-grid div[class*='row'] div[class*='col'] img {
     width: 100%;
     height: 100%;
+}
+
+
+/* Blog Section */
+
+
+#blog {
+    height: 60vh;
+}
+
+#blog .section-image {
+    background: url('../images/home/blog.jpg') no-repeat center center/cover;
+}
+
+#blog .section-content {
+    background: #28a745;
+    margin: 0;
+    height: 60vh;
+    text-align: left;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    padding: 150px 30px;
+}
+
+#blog .section-content h3,
+#blog .section-content p {
+    margin-bottom: 15px;
+    color: #fff;
 }
 
 
