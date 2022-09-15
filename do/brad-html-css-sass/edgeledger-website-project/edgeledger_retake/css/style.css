@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@400;500;700&family=Raleway&display=swap');
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Core styles */
+
+h1,h2,h3,h4,h5,h6,label {
+    font-family: 'Merriweater', 'Georgia', serif;
+}
+
+p,a,input,textarea {
+    font-family: 'Open Sans', Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar nav ul li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+}
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+    
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar nav {
+        width: 100%;
+    }
+}
