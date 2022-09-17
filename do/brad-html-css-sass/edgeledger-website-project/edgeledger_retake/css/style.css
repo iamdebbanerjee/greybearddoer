@@ -60,7 +60,6 @@ a {
     background-color: rgba(51, 51, 51, 0.8);
     color: #fff;
     padding: 0.3rem 1rem;
-    z-index: 10;
 }
 
 .navbar nav ul {
@@ -73,6 +72,7 @@ a {
 .navbar nav ul li {
     list-style: none;
     padding: 1rem;
+    cursor: pointer;
 }
 
 .navbar nav ul li a {
@@ -85,6 +85,10 @@ a {
 }
 
 /* Header Hero Content Area */
+
+.hero * {
+    z-index: 10;
+}
 
 .hero {
     background: url('../images/home/showcase.jpg') no-repeat center center/cover;
@@ -101,7 +105,7 @@ a {
     position: absolute;
     background-color:rgba(51, 51, 51, 0.4);
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .hero .content {
@@ -112,7 +116,6 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    z-index: 10;
 }
 
 .hero .content h1 {
