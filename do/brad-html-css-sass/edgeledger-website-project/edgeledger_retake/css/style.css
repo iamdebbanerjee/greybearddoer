@@ -86,7 +86,7 @@ a {
 
 /* Header Hero Content Area */
 
-header {
+.hero {
     background: url('../images/home/showcase.jpg') no-repeat center center/cover;
     height: 100vh;
     color: #fff;
