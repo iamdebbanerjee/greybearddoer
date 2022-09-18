@@ -24,12 +24,81 @@
     cursor: pointer;
     display: inline-block;
     padding: 10px 30px;
-    background-color: #28a745;
-    color: #fff;
     border-radius: 5px;
     text-align: center;
 }
 
-.btn:hover {
+.btn-primary {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #022b15;
+    font-weight: 300;
+}
+
+.btn-secondary {
     background-color: #0284d0;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #041e2c;
+    font-weight: 300;
+}
+
+.btn-light {
+    background-color: #fafafa;
+    color: #333;
+}
+
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Backgrounds */
+
+.bg-primary {
+    background-color: #28a745;
+}
+
+.bg-secondary {
+    background-color: #0284d0;
+}
+
+.bg-light {
+    background-color: #fafafa;
+}
+
+.bg-dark {
+    background-color: #333;
+}
+
+/* flex Items */
+
+.flex-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .flex-items {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
