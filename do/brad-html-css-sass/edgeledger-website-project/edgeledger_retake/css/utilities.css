@@ -58,6 +58,13 @@
     color: #fff;
 }
 
+.btn-outline {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    opacity: 100%;
+}
+
 /* Backgrounds */
 
 .bg-primary {
@@ -88,6 +95,26 @@
     padding: 10px 20px;
 }
 
+/* Flex columns */
+
+.flex-columns .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-columns .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.flex-columns .column-1,
+.flex-columns .column-2 {
+    height: 100%;
+}
 
 
 /* Media Queries */
