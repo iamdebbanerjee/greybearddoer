@@ -1,3 +1,8 @@
 /* Colors */
 
---primary-color: #
+:root {
+    --primary-color: #c72727;
+    --secondary-color: #ff4500;
+    --dark-color: #333;
+    --light-color: #fafafa;
+}
