@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid yellow; */
+    /* border: 1px solid blue; */
 }
 
 body {
@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Navbar */
 
 .navbar {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
