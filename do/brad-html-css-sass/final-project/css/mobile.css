@@ -83,13 +83,15 @@
 }
 
 /* Hamburger Menu Animation */
+/******LEARN THE + SELECTOR CAREFULLY. IT ALREADY SELECTS ALL THE SELECTORS UPTO THE LEVEL 
+WHERE IT WAS WRITTEN*******/
 
-.navbar .hamburger .toggle input:checked + navbar .hamburger .toggle div {
+.navbar .hamburger .toggle .toggle-btn:checked + div {
     transform: rotate(135deg);
 }
 
-navbar .hamburger .toggle .toggle-btn:checked + navbar .hamburger .toggle div::before,
-navbar .hamburger .toggle .toggle-btn:checked + navbar .hamburger .toggle div::after {
+.navbar .hamburger .toggle .toggle-btn:checked + div::before,
+.navbar .hamburger .toggle .toggle-btn:checked + div::after {
     top: 0;
     transform: rotate(90deg);
 }
