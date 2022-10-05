@@ -44,9 +44,10 @@
     height: 30px;
     cursor: pointer;
     opacity: 0;
+    z-index: 3;
 }
 
-.navbar .hamburger .toggle > div {
+.navbar .hamburger .toggle div {
     position: absolute;
     content: '';
     top: 0x;
@@ -55,10 +56,11 @@
     height: 2px;
     background-color: var(--light-color);
     z-index: 2;
+    transition: all 0.4s ease;
 
 }
 
-.navbar .hamburger .toggle > div::before {
+.navbar .hamburger .toggle div::before {
     position: absolute;
     content: '';
     top: -10px;
@@ -69,7 +71,7 @@
     z-index: 2;
 }
 
-.navbar .hamburger .toggle > div::after {
+.navbar .hamburger .toggle div::after {
     position: absolute;
     content: '';
     top: 10px;
@@ -80,7 +82,17 @@
     z-index: 2;
 }
 
+/* Hamburger Menu Animation */
 
+.navbar .hamburger .toggle input:checked + navbar .hamburger .toggle div {
+    transform: rotate(135deg);
+}
+
+navbar .hamburger .toggle .toggle-btn:checked + navbar .hamburger .toggle div::before,
+navbar .hamburger .toggle .toggle-btn:checked + navbar .hamburger .toggle div::after {
+    top: 0;
+    transform: rotate(90deg);
+}
 
 /* Nav Items */
 
