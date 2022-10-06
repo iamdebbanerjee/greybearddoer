@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid yellow; */
+    /* border: 1px solid black */
 }
 
 body {
@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
     max-width: var(--max-width);
+    margin: 0 auto;
 }
 
 
@@ -40,11 +41,13 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary-color);
-    color: var(--light-color);
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);    
 }
 
-.navbar .logo {
+.navbar .logo,
+.navbar nav {
+    width: 100%;
     padding: 1rem;
 }
 

@@ -5,6 +5,7 @@
     --secondary-color: #ff4500;
     --dark-color: #333;
     --light-color: #fafafa;
+    --max-width: 1300px;
 }
 
 .category {
