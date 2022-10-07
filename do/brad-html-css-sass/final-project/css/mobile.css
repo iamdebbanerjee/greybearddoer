@@ -5,6 +5,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    border-bottom: none;
+    background-color: #fadada;
     /* text-align: center; */
 }
 
@@ -103,4 +105,9 @@ WHERE IT WAS WRITTEN*******/
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.navbar nav ul li {
+    width: 50%;
+    border-bottom: 1px solid var(--primary-color);
 }
