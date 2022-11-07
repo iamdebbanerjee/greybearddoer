@@ -27,12 +27,14 @@ h1, h2, h3, h4, h5, h6, label {
     font-family: 'Merriweather', serif;
     font-weight: 400;
     line-height: 1.2;
+    padding-bottom: 1rem;
 }
 
 p, a, input, textarea {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 1.5;
+    padding-bottom: 0.8rem;
 }
 
 h1 {
@@ -60,7 +62,12 @@ p, a, input, textarea {
 
 /*********Utility Classes*************/
 
+.text-primary {color:  var(--primary-color);}
+.text-secondary {color:  var(--secondary-color);}
+.text-dark {color:  var(--dark-color);}
+.text-light {color:  var(--light-color);}
 
+.l-heading {font-size: 4rem;}
 
 
 /*******Section Styles************/
@@ -113,7 +120,6 @@ p, a, input, textarea {
 
 .primary-nav ul li {
     list-style: none;
-    border-bottom: 1px solid var(--light-color);
 }
 
 .primary-nav ul li a {
@@ -127,11 +133,17 @@ p, a, input, textarea {
     color: var(--dark-color);
 }
 
+/***********Hero Section***********/
 
+.hero-section {
+    background: url('../assets/img/showcase.jpg') no-repeat center center/cover;
+}
 
 
 
 /***********Media Queries************/
+
+/********Navbar************/
 
 @media screen and (min-width: 768px) {
 
@@ -186,6 +198,21 @@ p, a, input, textarea {
         padding: 1rem 2rem;
         font-size: 1.3rem;
     }
+
+
+    /********Hero Section********/
+
+    .hero-section {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-section h1, p {color: var(--light-color);}
+
+
 
 
 }
