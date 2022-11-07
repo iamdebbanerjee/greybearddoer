@@ -1,4 +1,191 @@
-/* Import Google Fonts */
+/******** Import Google Fonts ********/
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Patua+One&family=Roboto&display=swap');
 
+/*********CSS Variables*********/
+
+:root {
+    --primary-color:  #FF9268;
+    --secondary-color: #FFC38B;
+    --light-color: #FFF3CD;
+    --dark-color:  #4D3E3E;
+}
+
+
+
+/************CSS Reset***********/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*******Core Styles**********/
+
+h1, h2, h3, h4, h5, h6, label {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+p, a, input, textarea {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+label {
+    font-size: 1.3rem;
+}
+
+p, a, input, textarea {
+    font-size: 1.2rem;
+}
+
+
+
+
+/*********Utility Classes*************/
+
+
+
+
+/*******Section Styles************/
+
+.navbar {
+    height: 60vh;
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--dark-color);
+}
+
+.logo {
+    height: 10%;
+    font-size: 2.5rem;
+    font-family: 'Patua One' , cursive;
+    width:  50%;
+    color: var(--light-color);
+}
+
+.nav-toggle {
+    height: 10%;
+    width:  50%;
+    display: flex;
+    flex-direction: row-reverse;
+   /*  border:  1px solid red;*/
+}
+
+.nav-toggle #nav-toggle-btn {
+    width:  30px;
+    height:  30px;
+    opacity: 1;
+}
+
+.primary-nav {
+    height: 90%;
+    width: 100%;
+    text-align: center;
+}
+
+.primary-nav ul {
+    height:  100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.primary-nav ul li {
+    list-style: none;
+    border-bottom: 1px solid var(--light-color);
+}
+
+.primary-nav ul li a {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: var(--light-color);
+}
+
+.primary-nav ul li a:hover {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+
+
+
+
+/***********Media Queries************/
+
+@media screen and (min-width: 768px) {
+
+    .navbar {
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        /*border:  1px solid red;*/
+    }
+
+    .logo {
+        flex: 1;
+        height: 100%;
+        font-size: 2.5rem;
+        font-family: 'Patua One' , cursive;
+    }
+
+    .nav-toggle {
+        height: 100%;
+        flex:  1;
+    }
+
+    .nav-toggle #nav-toggle-btn {
+        width:  0px;
+        height:  0px;
+        opacity: 0;
+    }
+
+    .primary-nav {
+        height: 100%;
+        flex: 1;
+        text-align: center;
+    }
+
+    .primary-nav ul {
+        height:  100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .primary-nav ul li {
+        list-style: none;
+    }
+
+    .primary-nav ul li a {
+        text-decoration: none;
+        padding: 1rem 2rem;
+        font-size: 1.3rem;
+    }
+
+
+}
