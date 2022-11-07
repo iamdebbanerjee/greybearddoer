@@ -1,6 +1,6 @@
 /******** Import Google Fonts ********/
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Patua+One&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Patua+One&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
 /*********CSS Variables*********/
 
@@ -25,7 +25,7 @@
 
 h1, h2, h3, h4, h5, h6, label {
     font-family: 'Merriweather', serif;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1.2;
     padding-bottom: 1rem;
 }
