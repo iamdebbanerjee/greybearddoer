@@ -184,7 +184,7 @@ p, a, input, textarea {
 .info-grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows:  1fr 1fr;
+    /*grid-template-rows:  1fr 1fr;*/
 }
 
 .info-grid .hotel-image,
@@ -341,6 +341,10 @@ p, a, input, textarea {
     }
 
     .hero-section h1, p {color: var(--light-color);}
+
+    /********Info Grid*********/
+
+    
 
 
 
