@@ -86,8 +86,13 @@ p, a, input, textarea {
 }
 
 .btn-primary {
-    background-color: #FF9268;
-    color: #FFFFFF;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
 }
 
 
@@ -171,7 +176,7 @@ p, a, input, textarea {
 .hero-section h1,
 .hero-section p,
 .hero-section a {
-    color: #FFF3CD;
+    color: var(--light-color);
 }
 
 /**************Info Grid Section**********/
@@ -188,9 +193,41 @@ p, a, input, textarea {
     width: 100%;
 }
 
+.info-grid .hotel-history {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-grid .hotel-history h2 {
+    color: var(--primary-color);
+}
+
 .info-grid .feature-box {
     height: 33vh;
     background-color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-grid .feature-box i {
+    margin-bottom: 1.2rem;
+}
+
+.info-grid .feature-box-1,
+.info-grid .feature-box-3 {
+    background-color: var(--secondary-color);
+}
+
+.info-grid .feature-box-2 {
+    background-color: var(--primary-color);
 }
 
 .info-grid img {
@@ -199,6 +236,21 @@ p, a, input, textarea {
     height: 100%;
     overflow: hidden;
 }
+
+/***********Footer Section************/
+
+.footer {
+    height: 10vh;
+    text-align: center;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
 
