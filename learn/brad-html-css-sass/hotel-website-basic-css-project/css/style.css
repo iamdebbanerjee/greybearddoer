@@ -193,6 +193,10 @@ p, a, input, textarea {
     width: 100%;
 }
 
+.info-grid .hotel-image {
+    background: url('../assets/img/photo-1.jpg') no-repeat center center/cover;
+}
+
 .info-grid .hotel-history {
     background-color: var(--dark-color);
     color: var(--light-color);
@@ -344,9 +348,42 @@ p, a, input, textarea {
 
     /********Info Grid*********/
 
-    
+    .info-grid {
+        height: 100vh;
+        width: ;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        grid-gap: 0;
+    }
 
+    .info-grid .hotel-image {
+        background: url('../assets/img/photo-1.jpg') no-repeat center center/cover;
+        grid-row: 1 / 2;
+        grid-column: 1 / span 3;
+    }
 
+    .info-grid .hotel-history {
+        grid-row: 1 / 2;
+        grid-column: 3 / span 3;
+    }
+
+    .info-grid .feature-box-1 {
+        grid-row: 2 / 3;
+        grid-column: 1 / span 2;
+    }
+
+    .info-grid .feature-box-2 {
+        grid-row: 2 / 3;
+        grid-column: 3 / span 2;
+    }
+
+    .info-grid .feature-box-3 {
+        grid-row: 2 / 3;
+        grid-column: 5 / span 2;
+    }
 
 
 }
