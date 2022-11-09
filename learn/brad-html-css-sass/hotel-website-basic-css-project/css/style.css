@@ -68,6 +68,11 @@ p, a, input, textarea {
 
 /*********Utility Classes*************/
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .text-primary {color:  var(--primary-color);}
 .text-secondary {color:  var(--secondary-color);}
 .text-dark {color:  var(--dark-color);}
@@ -264,6 +269,27 @@ p, a, input, textarea {
     background-color: var(--primary-color);
 }
 
+/* *********About Page************** */
+
+/* *********About Info Section****** */
+
+.about-info {
+    height: 100vh;
+    padding: 3rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1rem;
+}
+
+.about-info .about-image img {
+    display: block;
+    width: 450px;
+    border-radius: 50%;
+}
+
 /***********Footer Section************/
 
 .footer {
@@ -275,6 +301,10 @@ p, a, input, textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.footer p {
+    padding: 0;
 }
 
 
@@ -367,13 +397,15 @@ p, a, input, textarea {
         align-items: center;
     }
 
-    .hero-section h1, p {color: var(--light-color);}
+    .hero-section h1, 
+    .hero-section p {
+        color: var(--light-color);
+    }
 
     /********Info Grid*********/
 
     .info-grid {
         height: 100vh;
-        width: ;
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -413,5 +445,44 @@ p, a, input, textarea {
         grid-column: 5 / span 2;
     }
 
+    /* ************About Page************* */
+
+    /* ************About Info Section******* */
+
+    .about-info {
+        height: 80vh;
+        padding: 3rem 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 1rem;
+    }
+
+    .about-info .about-image img {
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+    }
+
+
+
+
+    /* ************Footer Section************* */
+
+    .footer {
+        height: 10vh;
+        text-align: center;
+        background-color: var(--dark-color);
+        color: var(--light-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer p {
+        padding: 0;
+    }
 
 }
