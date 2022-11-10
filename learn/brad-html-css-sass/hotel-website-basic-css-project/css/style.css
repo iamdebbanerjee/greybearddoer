@@ -322,6 +322,13 @@ p, a, input, textarea {
     padding-bottom: 1rem;
 }
 
+/* **********Contact Page********* */
+
+.contact {
+    height: 80vh;
+    border: 1px solid red;
+}
+
 /***********Footer Section************/
 
 .footer {
