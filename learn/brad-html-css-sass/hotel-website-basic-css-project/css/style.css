@@ -226,10 +226,13 @@ p, a, input, textarea {
     /*grid-template-rows:  1fr 1fr;*/
 }
 
-.info-grid .hotel-image,
-.info-grid .hotel-history {
+.info-grid .hotel-image {
     height: 50vh;
     width: 100%;
+
+}
+.info-grid .hotel-history {
+    padding: 2rem;
 }
 
 .info-grid .hotel-image {
@@ -251,7 +254,7 @@ p, a, input, textarea {
 }
 
 .info-grid .feature-box {
-    height: 33vh;
+    /* height: 33vh; */
     background-color: var(--light-color);
     display: flex;
     flex-direction: column;
