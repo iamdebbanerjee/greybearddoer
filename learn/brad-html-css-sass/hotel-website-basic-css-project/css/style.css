@@ -278,7 +278,6 @@ p, a, input, textarea {
 /* *********About Info Section****** */
 
 .about-info {
-    height: 100vh;
     padding: 3rem 1rem;
     display: grid;
     grid-template-columns: 1fr;
@@ -454,19 +453,52 @@ p, a, input, textarea {
     /* ************About Info Section******* */
 
     .about-info {
-        height: 80vh;
-        padding: 3rem 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
         justify-content: center;
         align-items: center;
         grid-gap: 1rem;
+        border:  1px solid red;
     }
 
     .about-info .about-image img {
         display: block;
         margin: auto;
         border-radius: 50%;
+    }
+
+    /********About Testimonials Section*******/
+
+    .testimonials {
+        padding: 3rem 5rem;
+        display:  flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: url('../assets/img/test-bg.jpg') no-repeat center center/cover;
+    }
+
+    .testimonials .testimonial-1,
+    .testimonials .testimonial-2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: var(--primary-color);
+        padding: 1rem;
+        margin-bottom: 5rem;
+        border-radius: 10px;
+    }
+
+    .testimonial-1 .user-image img,
+    .testimonial-2 .user-image img {
+        display: block;
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    .testimonials .user-words {
+        padding: 1rem 2rem;
     }
 
 
