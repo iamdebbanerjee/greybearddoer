@@ -278,7 +278,6 @@ p, a, input, textarea {
 /* *********About Info Section****** */
 
 .about-info {
-    padding: 3rem 1rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -291,6 +290,33 @@ p, a, input, textarea {
     display: block;
     width: 450px;
     border-radius: 50%;
+}
+
+/**********Testimonials Section********/
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials .testimonial-1,
+.testimonials .testimonial-2 {
+    background-color: var(--primary-color);
+    margin-bottom: 2rem;
+    padding: 1rem 3rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.testimonials .testimonial-1 .user-image img,
+.testimonials .testimonial-2 .user-image img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    border-radius: 50%;
+    padding-bottom: 1rem;
 }
 
 /***********Footer Section************/
@@ -459,7 +485,6 @@ p, a, input, textarea {
         justify-content: center;
         align-items: center;
         grid-gap: 1rem;
-        border:  1px solid red;
     }
 
     .about-info .about-image img {
