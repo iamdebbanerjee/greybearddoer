@@ -27,26 +27,37 @@
     </section>
     <div class="container">
         <section class="contact">        
-            <h1>Contact Form</h1>
-            <form action="#">
-                <div>
-                    <label for="firstname">Firstname</label>
-                    <input type="text" name="firstname" id="firstname">
+            <div class="form-wrap">
+                <div class="form-intro">
+                    <h1>Contact Us</h1>
+                    <p>Tell us your requirements and we'll send you our best offers.</p>
                 </div>
-                <div>
-                    <label for="lastname">Lastname</label>
-                    <input type="text" name="lastname" id="lastname">
+                <div class="form-controls">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="firstname">First Name</label>
+                            <input type="text" id="firstname" name="firstname">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" id="lastname" name="lastname">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="user-query">Write us your requirements</label>
+                            <textarea id="user-query" name="user-query" rows="10"></textarea>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <div class="form-footer">
+                        <p>By clicking the Sign Up button, you agree to our
+                            <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a></p>
+                    </div>
                 </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div>
-                    <label for="user-query">Send Us Your Query</label>
-                    <textarea name="user-query" id="user-query" cols="30" rows="10"></textarea>
-                </div>
-                <button type="submit">Submit</button>
-            </form>
+            </div>
         </section>
     </div>
     

@@ -291,7 +291,7 @@ p, a, input, textarea {
 
 .about-info .about-image img {
     display: block;
-    width: 450px;
+    width: 350px;
     border-radius: 50%;
 }
 
@@ -317,7 +317,7 @@ p, a, input, textarea {
 .testimonials .testimonial-2 .user-image img {
     display: block;
     margin: auto;
-    width: 200px;
+    width: 120px;
     border-radius: 50%;
     padding-bottom: 1rem;
 }
@@ -325,9 +325,59 @@ p, a, input, textarea {
 /* **********Contact Page********* */
 
 .contact {
-    height: 80vh;
-    border: 1px solid red;
+
 }
+
+.form-wrap {
+    max-width: 95%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid var(--dark-color);
+    border-radius: 5px;
+    background-color: var(--light-color);
+}
+
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
+.form-intro {
+    margin-bottom: 1.5rem;
+}
+
+.form-controls label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.form-controls input, textarea, button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.form-controls button {
+    padding: 0.8rem;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border:var(--secondary-color);
+    border-radius: 5px;
+}
+
+.form-controls button:hover {
+    background-color: #37a08e;
+    cursor: pointer;
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.3rem;
+}
+
 
 /***********Footer Section************/
 
@@ -535,6 +585,64 @@ p, a, input, textarea {
     .testimonials .user-words {
         padding: 1rem 2rem;
     }
+
+
+/* **********Contact Page********* */
+
+.contact {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.form-wrap {
+    max-width: 95%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid var(--dark-color);
+    border-radius: 5px;
+    background-color: var(--light-color);
+}
+
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
+.form-intro {
+    margin-bottom: 1.5rem;
+}
+
+.form-controls label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.form-controls input, textarea, button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.form-controls button {
+    padding: 0.8rem;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border:var(--secondary-color);
+    border-radius: 5px;
+}
+
+.form-controls button:hover {
+    background-color: #37a08e;
+    cursor: pointer;
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.3rem;
+}
 
 
 
