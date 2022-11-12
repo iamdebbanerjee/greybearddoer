@@ -73,8 +73,18 @@ p, a, input, textarea {
 
 /*********Utility Classes*************/
 
-.container {
-    width: 80%;
+.l-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.m-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.s-container {
+	width: 70%;
     margin: 0 auto;
 }
 
@@ -134,6 +144,38 @@ p, a, input, textarea {
 }
 
 
+/*Section Styles*/
 
+/*Large Hero Section*/
 
+.l-hero {
+	background: url('../img/home/showcase1.jpg') no-repeat center center/cover;
+}
 
+.logo h2 {
+	font-weight: 600;
+	padding: 1rem;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar .nav nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.navbar .nav nav ul li {
+	list-style: none;
+}
+
+.navbar .nav nav ul li a {
+	text-decoration: none;
+	padding: 1rem;
+}
