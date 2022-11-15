@@ -261,8 +261,6 @@ p, a, input, textarea {
 		flex-direction: column;
 		justify-content: space-evenly;
 		align-items: center;
-		background-color: var(--primary-color);
-		color: var(--light-color);
 	}
 
 
