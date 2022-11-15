@@ -154,12 +154,6 @@ p, a, input, textarea {
     color: var(--light-color);
 }
 
-.logo h2 {
-    font-size: 2.5rem;
-	font-weight: 600;
-	padding: 1rem;
-}
-
 .navbar {
     height: 10%;
     position: sticky;
@@ -169,6 +163,18 @@ p, a, input, textarea {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.navbar .logo h2 {
+    font-size: 2.5rem;
+	font-weight: 600;
+	padding: 1rem;
+}
+
+.navbar .nav-toggle .nav-toggle-btn #nav-toggler {
+	width: 1px;
+	height: 1px;
+	opacity: 0;
 }
 
 .navbar .nav nav ul {
@@ -194,4 +200,68 @@ p, a, input, textarea {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 768px) {
+
+	.navbar {
+		height: 60vh;
+		width: 100%;
+		display : flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+		flex-wrap: wrap;
+	}
+
+	.navbar .logo,
+	.navbar .nav-toggle {
+		width: 50%;
+		height: 8vh;
+	}
+
+	.navbar .logo h2 {
+	    font-size: 2rem;
+		font-weight: 600;
+		padding: 1rem;
+	}
+
+	.navbar .nav-toggle {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		padding: 1rem;
+	}
+
+	.navbar .nav-toggle .nav-toggle-btn #nav-toggler {
+		width: 28px;
+		height: 28px;
+		opacity: 1;
+	}
+
+	.navbar .nav nav ul {
+		width: 100%;
+		border: 1px solid red;
+
+	}
+
+
+	.navbar .nav nav ul {
+
+	}
+
+	.navbar .nav nav ul li {
+		list-style: none;
+		
+	}
+
+	.navbar .nav nav ul li a {
+		text-decoration: none;
+		padding: 1rem;
+	}
+
 }
