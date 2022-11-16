@@ -149,12 +149,24 @@ p, a, input, textarea {
 /*Large Hero Section*/
 
 .l-hero {
+	position: relative;
 	background: url('../img/home/showcase.jpg') no-repeat center center/cover;
     height: 100vh;
     color: var(--light-color);
 }
 
-.navbar {
+.l-hero::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, 0.6);
+
+}
+
+.l-hero .navbar {
     height: 10%;
     position: sticky;
     top: 0;
@@ -163,6 +175,7 @@ p, a, input, textarea {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	z-index: 1;
 }
 
 .navbar .logo h2 {
@@ -191,15 +204,20 @@ p, a, input, textarea {
 .navbar .nav nav ul li a {
 	text-decoration: none;
 	padding: 1rem;
+	color: var(--light-color);
 }
 
-.hero {
+.l-hero .hero {
     height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.l-hero > * > * {
+	z-index: 1;
 }
 
 
@@ -212,7 +230,7 @@ p, a, input, textarea {
 		height: 160vh;
 	}
 
-	.navbar {
+	.l-hero .navbar {
 		position: static;
 		height: 60vh;
 		width: 100%;
@@ -275,8 +293,15 @@ p, a, input, textarea {
 		padding: 1rem;
 	}
 
-	.hero {
+	.l-hero .hero {
 		height: 100vh;
+	}
+
+	.l-hero .hero .m-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 }
