@@ -199,12 +199,18 @@ p, a, input, textarea {
 
 .navbar .nav nav ul li {
 	list-style: none;
+	padding-left: 1rem;
 }
 
 .navbar .nav nav ul li a {
+	font-weight: 700;
 	text-decoration: none;
 	padding: 1rem;
 	color: var(--light-color);
+}
+
+.navbar .nav nav ul li a:hover {
+	background-color: var(--dark-color);
 }
 
 .l-hero .hero {
@@ -285,13 +291,22 @@ p, a, input, textarea {
 
 	.navbar .nav nav ul li {
 		list-style: none;
+		width: 100%;
+		text-align: center;
+		padding: 1rem;
 		
 	}
 
 	.navbar .nav nav ul li a {
 		text-decoration: none;
-		padding: 1rem;
+		font-weight: 700;
 	}
+
+	.navbar .nav nav ul li:hover{
+		background-color: var(--dark-color);
+	}
+
+
 
 	.l-hero .hero {
 		height: 100vh;
