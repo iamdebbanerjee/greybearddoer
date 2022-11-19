@@ -295,6 +295,36 @@ p, a, input, textarea {
 }
 
 
+/* Cases Section */
+
+.cases-grid {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cases-grid .cases-header {
+	height: 20%;
+	width: 100%;
+	text-align: center;
+}
+
+.cases-grid .image-gallery {
+	height: 80%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.cases-grid .image-gallery div img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
 
 /*Media Queries*/
 
