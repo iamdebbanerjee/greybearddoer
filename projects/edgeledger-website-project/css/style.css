@@ -174,7 +174,7 @@ p, a, input, textarea {
 
 .l-hero .navbar {
     height: 10%;
-    position: sticky;
+    position: static;
     top: 0;
     left: 0;
 	display: flex;
@@ -243,7 +243,6 @@ p, a, input, textarea {
 	grid-template-rows: repeat(3, 1fr);
 	grid-gap: 0;
 	text-align: center;
-	border: 1px solid red;
 }
 
 .feature-grid .icons {
