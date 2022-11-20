@@ -329,7 +329,7 @@ p, a, input, textarea {
 /*Blog section*/
 
 .blog-section {
-	margin: 2rem 0;
+	margin: 2rem 0 0;
 	height: 50vh;
 	width: 100%;
 	display: flex;
@@ -353,6 +353,25 @@ p, a, input, textarea {
 	background: url("../img/home/blog.jpg") no-repeat center center/cover;
 }
 
+/*Team Section*/
+
+.team {	
+	height: 30vh;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.team div {
+	flex: 1;
+}
+
+.team div img {
+	display: block;
+	margin: 1rem auto;
+	width: 30%;
+	border-radius: 50%;
+}
 /*Media Queries*/
 
 @media screen and (max-width: 768px) {
