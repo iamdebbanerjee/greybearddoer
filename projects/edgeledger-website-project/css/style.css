@@ -174,14 +174,16 @@ p, a, input, textarea {
 
 .l-hero .navbar {
     height: 10%;
-    position: static;
-    top: 0;
-    left: 0;
+	width: 100%;
+	padding: 0 2rem;
+    position: fixed;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	z-index: 1;
+	background-color: rgba(3,3,3, 0.7);
+	/* border: 1px solid red; */
 }
 
 .navbar .logo h2 {
