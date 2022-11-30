@@ -1,0 +1,19 @@
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+input, button {
+
+    display: block;
+    padding: 1rem 2rem;
+    margin: 1rem 0 ;
+}
+
+p, input, label, button {
+    font-size: 1.2rem;;
+}
+
+.app-intro {
+    text-align: center;
+}
