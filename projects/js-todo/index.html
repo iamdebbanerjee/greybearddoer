@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Task App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,15 +18,16 @@
         </div>
         <hr>
         <h2>Add New Task</h2>
-        <form>
-            <label for="task-form">New Task</label>
-            <input type="text" name="task-form" id="task-form">
-            <button type="submit">Add Task</button>
+        <form id='task-form'>
+            <input type="text" name="new-task" id="new-task" placeholder="Enter New Task Here">
+            <input type="submit" class="task-add-btn" value="Add Task">
         </form>
         <hr>
         <div class="display-task">
             <h2>Display Tasks</h2>
+            <input type="text" name="filter-task" id="filter-task" placeholder="Filter Tasks">
             <ul class="task-list"></ul>
+            <input type="submit" class="task-clr-btn" value="Clear Tasks">
         </div>
     </div>
     <script src="app.js"></script>

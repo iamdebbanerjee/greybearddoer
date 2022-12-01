@@ -3,17 +3,35 @@
     margin: 0 auto;
 }
 
-input, button {
+.app-intro {
+    text-align: center;
+}
 
+input {
     display: block;
     padding: 1rem 2rem;
     margin: 1rem 0 ;
 }
 
-p, input, label, button {
-    font-size: 1.2rem;;
+input[type='text'] {
+    width: 80%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+input.task-clr-btn {
+    background-color: #333;
+    color: #f4f4f4;
 }
 
-.app-intro {
-    text-align: center;
+
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
 }
+
+p, input, label, button {
+    font-size: 1.2rem;
+    font-family: 'Source Serif Pro', serif;
+}
+
