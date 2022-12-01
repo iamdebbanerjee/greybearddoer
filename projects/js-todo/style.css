@@ -19,7 +19,9 @@ input[type='text'] {
     border-left: none;
     border-right: none;
 }
-input.task-clr-btn {
+.task-clr-btn {
+    padding: 1rem 2rem;
+    margin: 1rem 0 ;
     background-color: #333;
     color: #f4f4f4;
 }
