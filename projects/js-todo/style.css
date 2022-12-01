@@ -37,3 +37,7 @@ p, input, label, button {
     font-family: 'Source Serif Pro', serif;
 }
 
+ol li a {
+    float: right;
+}
+
