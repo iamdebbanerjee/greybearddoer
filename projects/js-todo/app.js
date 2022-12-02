@@ -34,7 +34,7 @@ function loadEventListeners(){
 		// Create new text node
 		let newTextNode = document.createTextNode(newTask);
     
-    // Append newTextNode to newListItem
+    	// Append newTextNode to newListItem
 		newListItem.appendChild(newTextNode);
 
 		// Create new a element
