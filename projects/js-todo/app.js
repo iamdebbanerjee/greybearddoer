@@ -66,6 +66,9 @@ function taskAdd(e){
 	// Append newListItem to taskList
 	taskList.appendChild(newListItem);
 
+	// Clear input field for next task
+	taskInput.value = '';
+
 
 	e.preventDefault();
 }
