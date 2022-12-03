@@ -17,9 +17,13 @@ function loadEventListeners(){
 	// Add Task event
 	taskForm.addEventListener('submit', taskAdd);
 
+	// Delete Task event
+	taskList.addEventListener('click', deleteTask);
+
 }
 
-	// Task Add Function
+// Task Add Function
+
 function taskAdd(e){
 	// Check if the user has entered anything or not
 	if (taskInput.value === ''){
@@ -67,8 +71,18 @@ function taskAdd(e){
 }
 
 
+// Delete a task function
+
+function deleteTask(e){
+
+	console.log(e.target);
+
+	if(e.target.parentElement.classList.contains('delete-task')){
+		(((e.target).parentElement).parentElement).remove();
+		// console.log(e.target.parentElement.parentElement);
+	}
+
+	e.preventDefault();
+}
 
 
-// Program Test
-
-// console.log(taskForm, addTask, taskFilter, taskList, clearTasks);
