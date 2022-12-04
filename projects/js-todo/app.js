@@ -21,7 +21,7 @@ function loadEventListeners(){
 	taskList.addEventListener('click', deleteTask);
 
 	// Filter tasks event
-
+	taskFilter.addEventListener('keyup', filterTasks);
 
 	// Clear Tasks event
 	clearTasks.addEventListener('click', clearAllTasks);
@@ -94,6 +94,14 @@ function deleteTask(e){
 	}
 	e.preventDefault();
 }
+
+// Filter tasks function
+
+function filterTasks() {
+	
+}
+
+
 
 // Clear Tasks function
 
