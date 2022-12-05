@@ -98,7 +98,17 @@ function deleteTask(e){
 // Filter tasks function
 
 function filterTasks() {
+	const filterText = taskFilter.value;
+	const availableTasks = taskList.querySelectorAll('li');
 	
+	if (availableTasks.forEach(function(task) {
+		indexOf(task.textContent) === filterText;
+	})) {
+		
+	}
+
+
+	// console.log(availableTasks);
 }
 
 
