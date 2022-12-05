@@ -74,10 +74,10 @@ function taskAdd(e){
 
 		// Clear input field for next task
 		taskInput.value = '';
-
-		// Prevent event default behaviour
-		e.preventDefault();
 	}
+
+	// Prevent form for reloading when it is submitted
+		e.preventDefault();
 }
 
 
