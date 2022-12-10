@@ -97,18 +97,27 @@ function deleteTask(e){
 
 // Filter tasks function
 
-function filterTasks() {
-	const filterText = taskFilter.value;
-	const availableTasks = taskList.querySelectorAll('li');
+function filterTasks(e) {
+	const filterText = e.target.value.toLowerCase();
+	const availableTasks = document.querySelectorAll('li');
+	availableTasks.forEach(function(task){
+		const item = task.textContent;
+		if (item.toLowerCase().indexOf(filterText) !== -1){
+			task.style.display = 'block';
+		} else {
+			task.style.display = 'none';
+		}
+
+	});
 	
-	if (availableTasks.forEach(function(task) {
-		indexOf(task.textContent) === filterText;
-	})) {
+	// if (availableTasks.forEach(function(task) {
+	// 	indexOf(task.textContent) === filterText;
+	// })) {
 		
-	}
+	// }
 
 
-	// console.log(availableTasks);
+	console.log(availableTasks);
 }
 
 
